@@ -1,0 +1,29 @@
+{
+  "name": "sheet",
+  "version": "1.0.0",
+  "description": "Performant code-driven sheet for tabular data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomas-enarsson/sheet.git"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "Tomas Enarsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomas-enarsson/sheet/issues"
+  },
+  "homepage": "https://github.com/tomas-enarsson/sheet#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sort": "^2.0.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

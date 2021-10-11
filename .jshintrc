@@ -1,0 +1,15 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "latedef": "nofunc",
+  "maxdepth": 3,
+  "maxparams": 5,
+  "noarg": true,
+  "nocomma": true,
+  "nonew": true,
+  "undef": true,
+  "unused": true,
+  "browser": true,
+  "typed": true
+}

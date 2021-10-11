@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font: 12pt normal Verdana, Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sheet {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sheet table {
+  display: block;
+  position: relative;
+}
+
+.sheet thead, .sheet tfoot, .sheet tbody, .sheet tr {
+  display: block;
+  position: relative;
+}
+
+.sheet th, .sheet td {
+  display: inline-block;
+  font-family: monospace;
+  height: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-left: 0;
+  overflow: hidden;
+}
+
+.sheet th {
+  font-weight: bold;
+  text-align: center;
+  background: #eee;
+}
+
+.sheet td {
+  font-weight: normal;
+  text-align: left;
+  background: #fff;
+}
+
+.sheet-head, .sheet-side, .sheet-body, .sheet-filler {
+  position: absolute;
+  overflow: hidden;
+}
+
+.sheet-head {
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.sheet-head th {
+  height: 100%;
+}
+
+.sheet-side {
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.sheet-side th {
+  width: 100%;
+}
+
+.sheet-body {
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.sheet-filler {
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-left: 0;
+  background: #eee;
+}
+
+.selected {
+  background: #eef !important;
+}
+
+.hidden {
+  display: none !important;
+}
